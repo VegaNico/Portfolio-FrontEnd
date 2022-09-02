@@ -1,3 +1,48 @@
-<h1>
-	Mi porfolio- Front End
-</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div id="MiNombre">
+            <span>
+               Web Developer Vega Herrera Nicolas
+            </span>
+        </div>
+        <div class="Icon">
+            <a href="https://www.facebook.com/nico.vega.14/">
+            <i class="fa-brands fa-facebook"> </i>
+            </a>
+        </div>
+        <div class="Icon">
+            <a href="https://www.instagram.com/_instandby_/"> 
+                <i class="fa-brands fa-instagram"></i>
+             </a>
+        <div class="Icon">
+            <a href="https://github.com/VegaNico">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        </div>
+        <div id="btn-login"><button class="btn btn-primary">Login</button>
+        </div>
+    </header>
+    <div>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABoCAMAAAB8HT2JAAAAvVBMVEX///8AAAD8sxXLy8s9PT3z8/N4eHiQZgz/uBIbGxzu7u4QEBAEBAT4+PjPz8+wsLDa2trk5OQVFRVRUVFubm4nJyeLi4tMTEzFxcVdXV27u7uTk5OcnJwLCwvf398wMDCnp6c4ODiBgYEzMzMoKCggICBXV1esrKxwcHCFhYU8PD5jZGZERERTVFVBOzOJYxZYSzStikPaqD2sjlMYFRAsHwWmdxMjGw1/ZTbzsCAWGiNRQCH/vhHRo0koIxn878V6AAAHQUlEQVR4nO2cCXeiOhTHSRFfZRNwKSAobp3O1HnLzNu37/+xJjcsxhZkMSHq5H9OPba5WPKTJDf3JlEUKSkpqfvRcv484K3J1BddTRZKVqgfmR8t0XW9UO6+J1REt/102X2iwtqIrvAF8ntmhdBQdJW7y+gdFnJE17mrJv2zQuat9vICWCH0QXStu+lVCKyZ6Gp3k4AeC+SKrncXWaYYWInoineRKFgfRVe8izQxrG7T1ZKwWkjCaiEJq4UkrBaSsFpIwmohCauFJKwWqoY1mw4/SVgnqoJlJlC6HElYlKpg5QEnXkGJe4L1KS93JKyjKmAdgwKJhFWoAtbiaDGUsHJVwHqlTA4SVqYKWAZlYnkSVqqq0XBF28QSFlGlUzqhjDgMifcFCyWU1ULCAp2ZG9KrXV4kLOUsLJPO7a0lrPNRhz1lxzpldnew0JoyZEzr/mCd+KZsl3HdISyUUKZzCaumUjZly3LBzV3COlnuwnCd7n3C2rcx/t5hHeOAWDqzIfFOYaGAMn+WsGqUHM2ZLZm/W1jbozmz+MO9wvIo8/CaYXHf51IPy9Ap8x13WIsoilruKQijBL/q+FOXnRg0Vj0s+vtil+qpgkU6xXVFYYXWKMavKr5w3JFCQ9XCovI85H44wzogFCOktaqDl6YMBrtBRwhNVQeLnkrr7FhVwsIVH9Ljb7pvxbKK/SsWtZMle3+aX6FsLMtiuu+lBtbJTogZf1guQgf88wzvYxSoJgoVZUwSJnv8jkzmTZvc9maMyHeZZVPmUBMdg5uB57yDZ5N40AO9/D+xhxXTXwzTNTUVsAKEIoicwXsDQW3D4jua4paWvksUzUTpZCJ4BystgCE8u44drbOwTgLLn1myqoBlIeC0TdshrEmJPX+B72MxngCsJUIr1zbRCGAh9ISgAW6m2Gw49AtY6AATfjwuvSYfFpX/ijkseu8W4zUP5TXALfCJjIiHFFakkOcjJIsIprDbLyFjgA5PlkIamgIIjawmBNYYer58YEpOk3r8YNHbc1lvDS6HhZEYsxludzGBBTxgVNEyWBjfIQjwc5NgWNDQRgDLeQPLJjznGH0S7HcEP39Yz5SZy5hVBaxjuV8GqyhtBAvi4KbZDyyP7tyZL3cohYWrbW5Xq9WI+KVHWE4GC3dmCx1kNYAFv481rRdYJztz2S+kKYU1z7saUv0UFvRLMz8cASxcPoKxTVNoWGk/pb+FBZRJh8YflkkH3wPmrMphefnsbgVPUwZrnF8yTZup56HdKSwS7Q6sN7Dg93iN+oBFz7J4LP4rgwWDSPo8D2EMi1N3i3xVHnEdFDvNAqzgto2UrpI5ra80rAH0WeS2DyZ/WIc3degFlq6qWbxBU1VVsfFPKvznV4ReiE0yn4Mrr6rw6Ocm4/nCVeAaxVdVzNtRVXARo8jFJuzORaiARdWF+UBYCaviDuEFdz1XcCxL/ZpSDivZWsGyUTyCwXhfb8pbtWtKB1xYtYJFNGgXtuGiClhxXs7r2IcWEzZ/PhxGDGMH3VU1GmYTqogTqztLWBh4zNGYpQnvHBZuijwPEzkD611wk05DvGuOzrtCrayIidouX/jxpx9q9HN3WGPDCLHz7s3xfRnGYhMj7D3hCSGKiY+lbMgmNW+juLERvphIm0BYy4QuY2vsQjxur12YmcHwRAamOCj7N33B+uXxoU6PX5o4G+Ww8tIE5s/wYLt5VhcSPvkMdQK+nwHT1+ykwtXbkHdYTP0/i4P1tRYV6MsFsMzpfARBYZgGm/u9vsYOlg3xziWsLzcTGHIILCi1hqFjw0JqAssMgJgXxCR1MAxtB0KpLDMWrWD92ojVw2ODllgFK0iDMi68QBeEyGx6AzPDAXHi/RxW0TXtYTo4I3NCA4IlIcomlWTizdLnaAXrt2awHn6/CBYkLHw9q3GaekigqXmk5gUscsV070F7o2ApOawgLfoOYDmnsD4gtCuDBTRGcRmsJf6QeBcLhPVHQ1h/XgYLKnuEBZOJDVywJ4Ejm4IVkb59VQYrIHGskUBY5l+NWD3+3R3WRNMPMPblsLbgDsCQaJO41sL3KFhzhLaavi+DhT9kamkinyyEGtH6p8EHnXcd1AJWvsbJo9aGFbCKtRfvYRX7bwXCir/++1ij//5v8kHnYMVLpYCV7VU4gAcAtOIx3WeRePcGOJHHKw2uph08OGXrF6GwcFMcnVfDPFAVrIPvp7Mbx8lnK47v55lx/LcEHHQrL3VDR9Ecx1KW8JJepKWFjk+KGLK6ruNVxqerfd9Ij2xnOTa5r8Kq1g3BynMBhrDjc28OlrmqtuAtUUdvRqU3o+vngsea7rpnDXjL4pOPqJWwfuci8Ti0oYFEV7ub2G+sbyJ2WeJ+JeQkavEJ027iczDPed3oCecK+1MIGugKEqYdZfXeENX6m7peMduR00jxrXZYmYIeXdNt/e1cu/rq5p+uYtHCxXJtlbuWt9uzS0lJSUlJfWf6BkVegiUu0DDhAAAAAElFTkSuQmCC" alt="Argentina Programa #YoProgramo">
+    </div>
+    <div><img src="https://i.pinimg.com/736x/40/5c/84/405c84ffad25bef0115c03e92699c26c.jpg" alt="Gargantua"></div>
+    <div><img src="https://scontent.firj1-1.fna.fbcdn.net/v/t39.30808-6/278263446_4946737252080229_6525885830986011823_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFkdzqXahJsXwVMTHPiYDQBMIKCfIZ601cwgoJ8hnrTV22qh5Q3NPZ6BKx9PrEbDfkpClyO3ziZMDxZw12CUO0E&_nc_ohc=xoQPiJXRZTEAX9eXKyV&_nc_ht=scontent.firj1-1.fna&oh=00_AT-dLNZr915D-Nd2ioDqCS_tHRxej2zjuQndxbYAAQc_yA&oe=62F2A98F">
+    </div>
+    <script src="https://kit.fontawesome.com/a89c5bf7b2.js" crossorigin="anonymous"></script>
+</body>
+</html>

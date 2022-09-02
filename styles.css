@@ -1,0 +1,12 @@
+#MiNombre {
+    font-size:  1.3em;
+    color: rgb(0, 0, 0);
+    width: 20em;
+    font-family: 'Uchen', serif;
+    
+}
+header {
+    background-color: rgb(76, 149, 172);
+    height: 8em;
+    width: 100%;
+}
